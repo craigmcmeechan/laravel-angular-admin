@@ -22,7 +22,8 @@ class RegisterFormController {
   register (isValid) {
     if (isValid) {
       var user = {
-        name: this.name,
+        username: this.username,
+        phone: this.phone,
         email: this.email,
         password: this.password,
         password_confirmation: this.password_confirmation
